@@ -1,6 +1,3 @@
-// gaut.: 27/01/2018
-// gaut.: if u don't understand what you did here, read getopt(3).
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
