@@ -1,2 +1,0 @@
-Requires: getopt regex.
-Non-functional under windows.

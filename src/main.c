@@ -215,21 +215,19 @@ void dtbprint_error(const char str[])
 
 void dtbprint_help(void)
 {
-    dtbprint_usage();
-    dtbprint(
-        "Help:\n"
-        "NUM:\n"
+    printf(
+        "\nUsage: "USAGE"\n"
+        "\nNUM:\n"
             "    The integer & positive number to be converted. Max 18 "
             "digits.\n"
-        "(-n|--no-newline):\n"
+        "\n[-n | --no-newline]\n"
             "    No new line after binary number.\n"
-        "(-s|--splitted) SEPN:\n"
-            "    Inserts a space each SEPN numbers in output. Max 2 digits."
-            "Also, it's an integer & positive number.\n"
-        "--version:\n"
-            "    Output version. Unlike most commands, you can combine "
-            "this with others options.\n"
-        "(-h|--help):\n"
+        "\n[-s | --splitted SEPN]\n"
+            "    Inserts a space each SEPN numbers in output. Max 2 digits.\n"
+        "\n[-h | --help]\n"
             "    Output the usage and help (this message). Can't combine.\n"
+        "\n[--version]\n"
+            "    Output version. Unlike most commands, you can combine "
+            "this with others options.\n\n"
     );
 }
