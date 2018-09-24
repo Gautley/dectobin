@@ -1,4 +1,3 @@
-// Ver 0.1
 #ifndef STRMANIP_H
 #define STRMANIP_H
 
@@ -7,7 +6,6 @@
 #include <stdbool.h>
 #include <string.h>
 
-// Inverte a string e a retorna invertida
 char *str_rev(char *str)
 {
     size_t stringLen = strlen(str);
@@ -20,4 +18,4 @@ char *str_rev(char *str)
 
     return reversed;
 }
-#endif // STRMANIP_H
+#endif
