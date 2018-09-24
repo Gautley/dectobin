@@ -5,10 +5,7 @@ accepts some options, see below.
 
 ### Install
 
-Clone this repo
-cd into it 
-run the very complex makefile 
-test
+Clone this repo; cd into it; run the very complex makefile; test
 
 ```
 git clone https://github.com/Gautley/dectobin.git
