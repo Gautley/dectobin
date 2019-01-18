@@ -26,13 +26,13 @@ Depends of linux regex library and getopt. Tested only in one machine running Ar
 
 ### Options
 
-#### [-n|--no-newline]
+#### -n, --no-newline
     No new line after the binary number.
 
-#### [-s|--splitted] SEPN
+#### -s, --splitted SEPN
     Inserts a space each SEPN numbers in output. Max 2 digit.
 
-#### [-h|--help]
+#### -h, --help
     Output the usage and help (this message). Can't combine.
 
 #### --version
