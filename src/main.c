@@ -9,7 +9,7 @@
 
 #define VERSION "0.4b"
 #define USAGE\
-    "dectobin NUM [-n] [-s N_BITS] [--at-least N_BYTES] [--version] [--help]"
+    "dectobin NUM [-n] [-s N_BITS] [-l N_BYTES] [--version] [--help]"
 
 struct option const longOptions[] = {
     {"no-newline", no_argument, NULL, 'n'},
