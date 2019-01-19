@@ -22,20 +22,25 @@ mv ./bin/dectobin "some directory in PATH"
 
 ### Dependencies
 
-Depends of linux regex library and getopt. Tested only in one machine running Arco
+Depends on linux regex library and getopt. 
 
 ### Options
 
 #### -n, --no-newline
     No new line after the binary number.
 
-#### -s, --splitted SEPN
-    Inserts a space each SEPN numbers in output. Max 2 digit.
+#### -s, --split N\_BITS
+    Inserts a space each N_BITS bits in output. Max 2 digit.
+
+#### -l, --at-least N\_BYTES
+    Ensures that the binary number will have at least N_BYTES
+    (with leading zeros)
 
 #### -h, --help
     Output the usage and help (this message). Can't combine.
 
 #### --version
-    Output version. Unlike most commands, you can combine this with others options.
+    Output version.
+    Unlike most commands, you can combine this with others options.
 
 so much options

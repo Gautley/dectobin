@@ -18,4 +18,25 @@ char *str_rev(char *str)
 
     return reversed;
 }
+
+char *str_repeat_char(char letter, unsigned int times)
+{
+    char *charsRepeated = malloc(sizeof(char) * (times + 1));
+    memset(charsRepeated, letter, times);
+    return charsRepeated;
+}
+
+char *strcat_at_begin(char *str, char *strToCat)
+{
+    char *mergedString = malloc(
+        sizeof(char) * (strlen(str) + strlen(strToCat) + 1)
+    );
+    mergedString[0] = '\0';
+
+    mergedString = strcat(mergedString, strToCat);
+    mergedString = strcat(mergedString, str);
+
+    return mergedString;
+}
+
 #endif
